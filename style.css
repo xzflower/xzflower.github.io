@@ -8,9 +8,9 @@
   --text-primary: #e8e8ed;
   --text-secondary: #8888a0;
   --text-muted: #5c5c78;
-  --accent-primary: #7c5cfc;
-  --accent-secondary: #a78bfa;
-  --accent-gradient: linear-gradient(135deg, #7c5cfc, #3b82f6);
+  --accent-primary: #0d9488;
+  --accent-secondary: #14b8a6;
+  --accent-gradient: linear-gradient(135deg, #0d9488, #059669);
   --border-color: #2a2a3a;
   --shadow: 0 4px 24px rgba(0,0,0,0.3);
   --radius: 12px;
@@ -49,7 +49,7 @@ body {
   width: 300px;
   height: 300px;
   border-radius: 50%;
-  background: radial-gradient(circle, rgba(124,92,252,0.08) 0%, transparent 70%);
+  background: radial-gradient(circle, rgba(13,148,136,0.08) 0%, transparent 70%);
   pointer-events: none;
   transform: translate(-50%, -50%);
   z-index: 0;
@@ -144,19 +144,19 @@ body {
 }
 .shape-1 {
   width: 400px; height: 400px;
-  background: #7c5cfc;
+  background: #0d9488;
   top: -10%; left: -5%;
   animation-delay: 0s;
 }
 .shape-2 {
   width: 300px; height: 300px;
-  background: #3b82f6;
+  background: #059669;
   bottom: -5%; right: -5%;
   animation-delay: -7s;
 }
 .shape-3 {
   width: 250px; height: 250px;
-  background: #a78bfa;
+  background: #f59e0b;
   bottom: 30%; left: 50%;
   animation-delay: -14s;
 }
@@ -183,12 +183,12 @@ body {
   font-size: 36px;
   font-weight: 800;
   color: white;
-  box-shadow: 0 8px 40px rgba(124,92,252,0.3);
+  box-shadow: 0 8px 40px rgba(13,148,136,0.3);
   animation: pulse-shadow 3s ease-in-out infinite;
 }
 @keyframes pulse-shadow {
-  0%, 100% { box-shadow: 0 8px 40px rgba(124,92,252,0.3); }
-  50% { box-shadow: 0 8px 60px rgba(124,92,252,0.5); }
+  0%, 100% { box-shadow: 0 8px 40px rgba(13,148,136,0.3); }
+  50% { box-shadow: 0 8px 60px rgba(13,148,136,0.5); }
 }
 .hero-title {
   font-size: clamp(40px, 8vw, 64px);
@@ -222,9 +222,9 @@ body {
   background: var(--accent-gradient);
   color: white;
   border: none;
-  box-shadow: 0 4px 20px rgba(124,92,252,0.3);
+  box-shadow: 0 4px 20px rgba(13,148,136,0.3);
 }
-.btn-primary:hover { transform: translateY(-2px); box-shadow: 0 6px 30px rgba(124,92,252,0.4); }
+.btn-primary:hover { transform: translateY(-2px); box-shadow: 0 6px 30px rgba(13,148,136,0.4); }
 .btn-outline {
   background: transparent;
   color: var(--text-primary);
@@ -397,7 +397,7 @@ body {
   font-size: 12px;
   padding: 4px 10px;
   border-radius: 50px;
-  background: rgba(124,92,252,0.1);
+  background: rgba(13,148,136,0.1);
   color: var(--accent-secondary);
   font-weight: 500;
 }

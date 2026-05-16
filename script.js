@@ -95,5 +95,5 @@ const skillObserver = new IntersectionObserver((entries) => {
 skillBars.forEach(bar => skillObserver.observe(bar));
 
 // ========== Console Easter Egg ==========
-console.log('%c✿ flowerdance', 'font-size: 24px; font-weight: bold; color: #7c5cfc;');
+console.log('%c✿ flowerdance', 'font-size: 24px; font-weight: bold; color: #0d9488;');
 console.log('%c用代码把想法变成现实', 'font-size: 14px; color: #8888a0;');
