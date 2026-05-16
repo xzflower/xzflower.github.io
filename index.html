@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>flowerdance · xzflower</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+  <div class="cursor-glow"></div>
+
+  <nav class="navbar">
+    <div class="nav-brand">✦ flowerdance</div>
+    <div class="nav-links">
+      <a href="#about">关于</a>
+      <a href="#skills">技能</a>
+      <a href="#projects">项目</a>
+      <a href="#contact">联系</a>
+    </div>
+    <button class="theme-toggle" id="themeToggle" aria-label="切换主题">
+      <i class="fas fa-moon"></i>
+    </button>
+  </nav>
+
+  <section class="hero" id="hero">
+    <div class="hero-bg-shapes">
+      <div class="shape shape-1"></div>
+      <div class="shape shape-2"></div>
+      <div class="shape shape-3"></div>
+    </div>
+    <div class="hero-content">
+      <div class="hero-avatar">
+        <span class="avatar-text">F</span>
+      </div>
+      <h1 class="hero-title">flowerdance</h1>
+      <p class="hero-subtitle">代码 · 创造 · 探索</p>
+      <p class="hero-desc">用代码把想法变成现实，每天一个小项目</p>
+      <div class="hero-actions">
+        <a href="#projects" class="btn btn-primary">
+          <i class="fas fa-rocket"></i> 查看项目
+        </a>
+        <a href="#contact" class="btn btn-outline">
+          <i class="fas fa-envelope"></i> 联系我
+        </a>
+      </div>
+      <div class="hero-social">
+        <a href="https://github.com/xzflower" target="_blank" rel="noopener"><i class="fab fa-github"></i></a>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <span>向下滚动</span>
+      <i class="fas fa-chevron-down"></i>
+    </div>
+  </section>
+
+  <section class="section about" id="about">
+    <div class="container">
+      <h2 class="section-title">关于我</h2>
+      <div class="about-grid">
+        <div class="about-card">
+          <div class="about-icon"><i class="fas fa-code"></i></div>
+          <h3>全栈开发者</h3>
+          <p>热爱用代码构建有趣的项目，从前端到后端，从算法到工具，享受创造的乐趣。</p>
+        </div>
+        <div class="about-card">
+          <div class="about-icon"><i class="fas fa-brain"></i></div>
+          <h3>持续学习</h3>
+          <p>每天都有新东西要学，保持好奇心和技术敏锐度是进步的源动力。</p>
+        </div>
+        <div class="about-card">
+          <div class="about-icon"><i class="fas fa-cloud-sun"></i></div>
+          <h3>自动化爱好者</h3>
+          <p>能自动化的事情绝不手动，用 AI + 脚本解放生产力。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section skills" id="skills">
+    <div class="container">
+      <h2 class="section-title">技能栈</h2>
+      <div class="skills-grid">
+        <div class="skill-item">
+          <div class="skill-icon"><i class="fab fa-python"></i></div>
+          <span class="skill-name">Python</span>
+          <div class="skill-bar"><div class="skill-fill" style="width: 90%"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-icon"><i class="fab fa-js"></i></div>
+          <span class="skill-name">JavaScript</span>
+          <div class="skill-bar"><div class="skill-fill" style="width: 80%"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-icon"><i class="fab fa-html5"></i></div>
+          <span class="skill-name">HTML/CSS</span>
+          <div class="skill-bar"><div class="skill-fill" style="width: 85%"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-icon"><i class="fas fa-terminal"></i></div>
+          <span class="skill-name">Shell</span>
+          <div class="skill-bar"><div class="skill-fill" style="width: 75%"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-icon"><i class="fab fa-git-alt"></i></div>
+          <span class="skill-name">Git</span>
+          <div class="skill-bar"><div class="skill-fill" style="width: 85%"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-icon"><i class="fas fa-robot"></i></div>
+          <span class="skill-name">AI / LLM</span>
+          <div class="skill-bar"><div class="skill-fill" style="width: 85%"></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section projects" id="projects">
+    <div class="container">
+      <h2 class="section-title">项目</h2>
+      <p class="section-desc">每天一个小项目，持续更新中...</p>
+      <div class="projects-grid">
+        <div class="project-card">
+          <div class="project-header">
+            <span class="project-icon"><i class="fas fa-flask"></i></span>
+            <span class="project-status live">即将上线</span>
+          </div>
+          <h3 class="project-title">Daily Projects</h3>
+          <p class="project-desc">每日自动生成的有趣小项目，涵盖各种技术方向。</p>
+          <div class="project-tags">
+            <span>Python</span>
+            <span>自动化</span>
+            <span>创意</span>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-header">
+            <span class="project-icon"><i class="fas fa-globe"></i></span>
+            <span class="project-status live">即将上线</span>
+          </div>
+          <h3 class="project-title">xzflower.github.io</h3>
+          <p class="project-desc">个人主页，记录成长和作品集。</p>
+          <div class="project-tags">
+            <span>HTML/CSS</span>
+            <span>JS</span>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-header">
+            <span class="project-icon"><i class="fas fa-magic"></i></span>
+            <span class="project-status idea">构思中</span>
+          </div>
+          <h3 class="project-title">下一个项目</h3>
+          <p class="project-desc">等待灵感降临 ...</p>
+          <div class="project-tags">
+            <span>?</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section contact" id="contact">
+    <div class="container">
+      <h2 class="section-title">联系我</h2>
+      <div class="contact-links">
+        <a href="https://github.com/xzflower" target="_blank" rel="noopener" class="contact-item">
+          <i class="fab fa-github"></i>
+          <span>xzflower</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© 2025 flowerdance · 用 ✨ 构建</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
